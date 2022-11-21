@@ -14,7 +14,7 @@ var searchButton = document.getElementById("searchButton");
 function getTitle () {
   var titleSearch = searchButton.value;
 
-  var requestUrl = "http://www.omdbapi.com/?apikey=5befe5de&t=" + searchInput.value;
+  var requestUrl = "http://www.omdbapi.com/?apikey=5befe5de&t= " + searchInput.value;
   
   console.log(requestUrl);
 
